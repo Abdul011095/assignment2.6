@@ -1,0 +1,65 @@
+
+1) 
+import java.util.*;
+public class acad
+{
+public static void main(String args[])
+{
+Scanner sc= new Scanner(System.in);
+int num1=sc.nextInt();
+int num2=sc.nextInt();
+for(int val=num1;val<=num2;val++)
+{
+if(val%2==0)
+{
+System.out.println("odd number:"+val );
+}
+else
+{
+System.out.println("even number:"+val );
+}
+}
+}
+}
+=======================================================================================
+2)
+import java.util.*;
+public class Main
+{
+public static void main(String args[])
+{
+Scanner sc= new Scanner(System.in);
+int num1=1;
+int num2=s.nextInt();
+for(val i=1;val<=10;val++)
+{
+num1=i*num2;
+System.out.println(num2+"*"+val+"="+num1);
+}
+}
+}
+===========================================================================================
+3)
+import java.util.*;
+public class Main
+{
+public static void main(String args[])
+{
+
+int num1=sum(1,2);
+int num2=sum(5,3,9);
+System.out.println(num1);
+System.out.println(num2);
+}
+public static int sum(int val1,int val2)
+{
+   
+int ans=val1+val2;
+return ans;
+}
+public static int sum(int val1,int val2,int val3)
+{
+   
+int ans=val1+val2+val3;
+return ans;
+}
